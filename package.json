@@ -1,0 +1,21 @@
+{
+  "name": "tcomb-form-native-builder-components",
+  "version": "0.0.0",
+  "description": "Type for `tcomb-form-native` to show static images",
+  "license": "MIT",
+  "author": "Quantum BA (http://www.quantum-ba.com/)",
+  "contributors": [
+    "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumBA/tcomb-form-native-builder-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuantumBA/tcomb-form-native-builder-components/issues"
+  },
+  "homepage": "https://github.com/QuantumBA/tcomb-form-native-builder-components#readme"
+}
