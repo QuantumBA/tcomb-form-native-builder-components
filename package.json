@@ -7,8 +7,12 @@
   "contributors": [
     "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
   ],
+  "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tcomb-form-native": "^0.6.11"
   },
   "repository": {
     "type": "git",
