@@ -15,6 +15,10 @@
     "object-to-formdata": "^1.0.13",
     "tcomb-form-native": "^0.6.11"
   },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.51.0",
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QuantumBA/tcomb-form-native-builder-components.git"
