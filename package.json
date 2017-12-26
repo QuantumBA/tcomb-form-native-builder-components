@@ -12,6 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "material-ui-chip-input": "^0.18.4",
     "object-to-formdata": "^1.0.13",
     "react-native-document-picker": "github:QuantumBA/react-native-document-picker#v3",
     "tcomb-form-native": "^0.6.11"
