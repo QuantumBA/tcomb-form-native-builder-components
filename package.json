@@ -18,6 +18,7 @@
     "object-path": "^0.11.4",
     "object-to-formdata": "^1.0.13",
     "react-native-document-picker": "github:QuantumBA/react-native-document-picker#v3",
+    "react-native-fit-image": "^1.5.4",
     "string-template": "^1.0.0",
     "tcomb-form-native": "^0.6.11"
   },
