@@ -1,0 +1,12 @@
+{
+  "type": "string",
+  "enum": ["default enum value"],
+  "uri": "/{path}?value={queryValue}",
+  "placeholders":
+  {
+    "path": "blah",
+    "queryValue": "foo"
+  },
+  "fieldId": "meta.key",
+  "fieldValue": "data"
+}
