@@ -1,11 +1,11 @@
-const {arrayStrings} = require('../lib/transformers')
+const {arrayStringsFactory} = require('../lib/transformers')
 
 
-describe('arrayStrings', function()
+describe('arrayStringsFactory', function()
 {
   describe('default arguments', function()
   {
-    const transformer = arrayStrings()
+    const transformer = arrayStringsFactory()
 
     describe('format', function()
     {
@@ -40,7 +40,7 @@ describe('arrayStrings', function()
 
   describe('custom arguments', function()
   {
-    const transformer = arrayStrings(',', '|')
+    const transformer = arrayStringsFactory(',', '|')
 
     describe('format', function()
     {
