@@ -29,8 +29,6 @@ Open a platform native file selector, and give an URI to operate with it.
   - **formGroup**: style of the wrapper container
   - **helpBlock**: style of the help info label
   - **errorBlock**: style of the error info label
-- **title**: file selector button label. If a file is selected, its name will be
-  appended
 - **type**: `mime` type of the files that can be selected. Default: all files
 
 ### Image
@@ -49,7 +47,6 @@ Show a static image, for example a company logo.
   - **formGroup**: style of the wrapper container
   - **helpBlock**: style of the help info label
   - **errorBlock**: style of the error info label
-- **title**: submit button label
 - **uri**: address where to `POST` the form info
 
 ## Transformers
