@@ -87,8 +87,8 @@ as a list of objects.
 - meta
   - **fieldId**: if entries are defined as a list of objects, path to the value
     to be used as `id`. Default: `id`.
-  - **fieldValue**: if entries are defined as a list of objects, path to the
-    value to be used as `value`. Default: `value`.
+  - **fieldLabel**: if entries are defined as a list of objects, path to the
+    value to be used as `label`. Default: `label`.
   - **placeholders**: object mapping the `uri` placeholders with their actual
     value to be used.
   - **uri**: location of the JSON file with the entries of the `select`. entries

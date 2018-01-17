@@ -5,7 +5,7 @@
   "meta":
   {
     "fieldId": "meta.key",
-    "fieldValue": "data",
+    "fieldLabel": "data",
     "placeholders":
     {
       "path": "blah",
