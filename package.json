@@ -40,5 +40,14 @@
     "fetch-mock": "^5.13.1",
     "react": "^16.2.0",
     "react-native": "^0.51.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js",
+      "config/**/*.js",
+      "lib/**/*.js",
+      "scripts/*.js",
+      "src/**/*.js"
+    ]
   }
 }

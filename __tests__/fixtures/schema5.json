@@ -1,0 +1,12 @@
+{
+  "type": "string",
+  "enum": {
+    "id": "label"
+  },
+  "foo": {
+    "enum": {
+      "id": "label"
+    }
+  },
+  "bar": ["c"]
+}
