@@ -3,7 +3,7 @@ const fetchMock = require('fetch-mock')
 const processSchema = require('../lib/processSchema')
 
 
-afterEach(fetchMock.restore())
+afterEach(fetchMock.restore)
 
 
 describe('remote `select` definition', function()
