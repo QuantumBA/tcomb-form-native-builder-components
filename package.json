@@ -37,9 +37,9 @@
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-react-native": "^4.0.0",
-    "fetch-mock": "^5.13.1",
+    "fetch-mock": "^6.0.0",
     "react": "^16.2.0",
-    "react-native": "^0.51.0"
+    "react-native": "^0.52.2"
   },
   "jest": {
     "collectCoverageFrom": [
