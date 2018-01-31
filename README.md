@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/QuantumBA/tcomb-form-native-builder-components.svg?branch=master)](https://travis-ci.org/QuantumBA/tcomb-form-native-builder-components)
+
 # tcomb-form-native-builder-components
 Set of extra formats, transformers and types for
 [tcomb-form-native](https://github.com/gcanti/tcomb-form-native)
