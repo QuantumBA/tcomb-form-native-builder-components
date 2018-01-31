@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/QuantumBA/tcomb-form-native-builder-components.svg?branch=master)](https://travis-ci.org/QuantumBA/tcomb-form-native-builder-components)
+[![Coverage Status](https://coveralls.io/repos/github/QuantumBA/tcomb-form-native-builder-components/badge.svg?branch=master)](https://coveralls.io/github/QuantumBA/tcomb-form-native-builder-components?branch=master)
 
 # tcomb-form-native-builder-components
 Set of extra formats, transformers and types for
