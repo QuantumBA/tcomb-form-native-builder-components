@@ -19,6 +19,7 @@
     "react-native-document-picker": "github:QuantumBA/react-native-document-picker#v3",
     "react-native-fit-image": "^1.5.4",
     "react-native-material-selectize": "^1.6.0",
+    "react-native-material-textfield": "^0.12.0",
     "string-template": "^1.0.0",
     "tcomb-form-native": "^0.6.11"
   },
