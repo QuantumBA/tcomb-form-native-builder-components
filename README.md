@@ -15,6 +15,10 @@ by it, making them incompatible with standard `tcomb-form-native`.
 Factories are responsible of drawing the UI component and do the data
 transformations to serialize the info transparent to the user.
 
+All the components can define their style both by definition or runtime options,
+and they'll be combined. To set a component as centered and shrinked, just set
+its style to `{flexDirection: 'row', justifyContent: 'center'}`.
+
 ### Chips
 
 Allow to get a list of strings as a set of
