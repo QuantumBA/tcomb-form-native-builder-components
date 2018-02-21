@@ -28,9 +28,10 @@ Allow to get a list of strings as a set of
   - **chipContainer**: style of the *chip* button
   - **rootElement**: style of the *chip* buttons wrapper container
 
-### File
+### Files
 
-Open a platform native file selector, and give an URI to operate with it.
+Open a platform native file selector to select one or several files, and give an
+URI to operate with them.
 
 - style
   - **formGroup**: style of the wrapper container
