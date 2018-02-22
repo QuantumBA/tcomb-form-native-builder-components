@@ -15,7 +15,7 @@
     "babel-runtime": "^6.26.0",
     "material-ui": "^0.20.0",
     "object-path": "^0.11.4",
-    "object-to-formdata": "^1.2.2",
+    "object-to-formdata": "github:QuantumBA/object-to-formdata.git",
     "react-native-document-picker": "github:QuantumBA/react-native-document-picker#v3",
     "react-native-fit-image": "^1.5.4",
     "react-native-material-selectize": "^1.9.0",
