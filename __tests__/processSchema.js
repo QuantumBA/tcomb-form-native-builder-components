@@ -53,3 +53,16 @@ test('child nodes', async function()
   expect(result.enum).toEqual({'id': 'label'})
   expect(result.foo.enum).toEqual({'id': 'label'})
 })
+
+test('stacked placeholders', async function()
+{
+  const self =
+  {
+    path: "blah",
+    queryValue: "foo"
+  }
+
+  const result = await processSchema.call(self, require('./fixtures/schema6.json'))
+
+  expect(result.zap).toEqual('/blah?value=foo')
+})
