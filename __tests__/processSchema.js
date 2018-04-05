@@ -54,15 +54,34 @@ test('child nodes', async function()
   expect(result.foo.enum).toEqual({'id': 'label'})
 })
 
-test('stacked placeholders', async function()
+describe('stacked placeholders', function()
 {
-  const self =
+  test('this', async function()
   {
-    path: "blah",
-    queryValue: "foo"
-  }
+    const self =
+    {
+      path: "blah",
+      queryValue: "foo"
+    }
 
-  const result = await processSchema.call(self, require('./fixtures/schema6.json'))
+    const result = await processSchema.call(self, require('./fixtures/schema6.json'))
 
-  expect(result.zap).toEqual('/blah?value=foo')
+    expect(result.zap).toEqual('/blah?value=foo')
+  })
+
+  test('complex objects', async function()
+  {
+    const self =
+    {
+      path: "blah",
+      query:
+      {
+        value: "foo"
+      }
+    }
+
+    const result = await processSchema.call(self, require('./fixtures/schema7.json'))
+
+    expect(result.zap).toEqual('/blah?value=foo')
+  })
 })

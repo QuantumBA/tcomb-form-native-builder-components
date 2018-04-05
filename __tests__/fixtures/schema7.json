@@ -1,0 +1,3 @@
+{
+  "zap": "/{path}?value={query.value}"
+}
