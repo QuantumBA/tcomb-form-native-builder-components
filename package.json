@@ -18,7 +18,7 @@
     "mixin-deep": "^1.3.1",
     "object-path": "^0.11.4",
     "object-to-formdata": "github:QuantumBA/object-to-formdata.git",
-    "react-native-document-picker": "github:QuantumBA/react-native-document-picker#v3_camera",
+    "react-native-document-picker": "github:QuantumBA/react-native-document-picker#example_re-start",
     "react-native-fit-image": "^1.5.4",
     "react-native-material-selectize": "^1.9.0",
     "react-native-material-textfield": "^0.12.0",
