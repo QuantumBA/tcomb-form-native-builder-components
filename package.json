@@ -1,9 +1,9 @@
 {
   "name": "tcomb-form-native-builder-components",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Type for `tcomb-form-native` to show static images",
   "license": "MIT",
-  "author": "Quantum BA (http://www.quantum-ba.com/)",
+  "author": "Foqum (http://www.foqum.io/)",
   "contributors": [
     "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
   ],
@@ -19,7 +19,7 @@
     "mixin-deep": "^1.3.1",
     "object-path": "^0.11.4",
     "object-to-formdata": "github:QuantumBA/object-to-formdata.git",
-    "tcomb-form-native-builder-utils": "0.0.2",
+    "tcomb-form-native-builder-utils": "~0.0.2",
     "react-native-document-picker": "github:QuantumBA/react-native-document-picker#v3_camera",
     "react-native-fit-image": "^1.5.4",
     "react-native-material-selectize": "^1.9.0",
