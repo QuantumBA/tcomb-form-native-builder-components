@@ -110,6 +110,7 @@ export default class Modal extends Component {
             <Message>{message}</Message>
             <CommentContainer>
               <Comment
+                placeholder="Type your comment..."
                 value={comment}
                 onChangeText={comment => this.setState({ comment })}
                 multiline
