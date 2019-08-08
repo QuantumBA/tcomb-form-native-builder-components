@@ -1,6 +1,6 @@
 {
   "name": "tcomb-form-native-builder-components",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "Type for `tcomb-form-native` to show static images",
   "license": "MIT",
   "author": "Foqum (http://www.foqum.io/)",
